@@ -1,0 +1,47 @@
+html{
+    --color1:#D1884F;
+    --color2:#008AAA;
+    --color3:#3BBADB;
+}
+
+
+
+.navbar{
+   
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.main{
+
+    width: 50%;
+    display: flex;
+justify-content: space-evenly;
+   
+}
+.main li{
+    list-style: none;
+}
+.main li a {
+    text-decoration: none;
+    padding-left: 7px;
+   
+}
+
+@font-face {
+    font-family: pop;
+    src: url('/webfonts/Poppins/Poppins-Medium.ttf');
+}
+
+a{
+    font-family: pop;
+    color: #000;
+   
+}
+li a:nth-child(1){
+    color: var(--color1);
+ 
+}
+
+
+
